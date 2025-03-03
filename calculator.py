@@ -30,3 +30,6 @@ while True:
 
         elif operator == "x":
             answer = input1 * input2 # multiplication
+
+        elif operator == "%":
+            answer = input1 // input2 # division

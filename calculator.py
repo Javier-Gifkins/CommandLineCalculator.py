@@ -3,7 +3,7 @@ import math
 
 # start an infinite loop to keep calculator running & get the first number from the user (integer)
 while True:
-    input1 = int(input("What is the first number?"))
+    input1 = int(input("What is the first number? "))
 
     # ask the user for an operator
     operator = input("Which operator will you choose? [+/-/x/%/sqrt] ")
@@ -19,7 +19,7 @@ while True:
 
     # get the second number from the user
     else:
-        input2 = int(input("What is your second number?"))
+        input2 = int(input("What is your second number? "))
 
         # perform the calculation using the chosen operator
         if operator == "+":

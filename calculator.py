@@ -5,4 +5,7 @@ import math
 while True:
     input1 = int(input("What is the first number?"))
 
+    # ask the user for an operator
+    operator = input("Which operator will you choose? [+/-/x/%/sqrt] ")
 
+    

@@ -33,3 +33,12 @@ while True:
 
         elif operator == "%":
             answer = input1 // input2 # division
+
+        # handling invalid user input
+        else:
+            print("I dont understand that.")
+
+        # displaying calculator result
+        print(f"{input1} {operator} {input2} = {answer}")
+
+        

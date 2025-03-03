@@ -27,3 +27,6 @@ while True:
 
         elif operator == "-":
             answer = input1 - input2 # subtraction
+
+        elif operator == "x":
+            answer = input1 * input2 # multiplication

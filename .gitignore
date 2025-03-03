@@ -1,0 +1,22 @@
+# we want to ignore files and directories that are generated during the execution or of Python script.
+
+#Here are some common entries:
+
+# byte-compiled/optimised python files:
+__pycache__/
+*.pyc
+
+# virtual environments:
+venv/
+env/
+.venv/
+
+# IDE's and editors:
+.vscode/
+.idea/
+
+# logs and temporary files:
+*.log
+*.sqlite3
+*.bak
+*.swp

@@ -8,4 +8,11 @@ while True:
     # ask the user for an operator
     operator = input("Which operator will you choose? [+/-/x/%/sqrt] ")
 
-    
+    # if user picks square root then a second input number is not required
+    if operator == "sqrt":
+
+        # compute the square root of the first number
+        answer = math.sqrt(input1)
+        
+        # display the result
+        print(f" The square root of {input1} = {answer}")

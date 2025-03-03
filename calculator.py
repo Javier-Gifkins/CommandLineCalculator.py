@@ -13,6 +13,10 @@ while True:
 
         # compute the square root of the first number
         answer = math.sqrt(input1)
-        
+
         # display the result
         print(f" The square root of {input1} = {answer}")
+
+    # get the second number from the user
+    else:
+        input2 = int(input("What is your second number?"))

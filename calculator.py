@@ -41,4 +41,9 @@ while True:
         # displaying calculator result
         print(f"{input1} {operator} {input2} = {answer}")
 
-        
+    # ask user if they want to perform another calculation
+    choice = input("Do you want to perform another calculation? [Y/N] ")
+
+    # if choice is 'n' calculator will stop
+    if choice.lower() == "n":
+        break

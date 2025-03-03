@@ -47,8 +47,13 @@ guidelines:
     use clear commit messages
     keep code clean and well documented
     no direct pushes to main, use pull requests instead
-    
 
+.gitignore file:
+the gitignore file helps prevent unessecary files from being tracked in the version control system, such as:
 
+compiled python files (*.pyc)
+virtual environment directories (venv/,env/,.venv/)
+editor specific directories (.vscode, ,idea/)
+temporary files (*.log, *.sqlite3, *.bak, *.swp)
 
     

@@ -24,3 +24,6 @@ while True:
         # perform the calculation using the chosen operator
         if operator == "+":
             answer = input1 + input2 # addition
+
+        elif operator == "-":
+            answer = input1 - input2 # subtraction

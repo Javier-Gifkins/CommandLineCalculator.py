@@ -20,3 +20,7 @@ while True:
     # get the second number from the user
     else:
         input2 = int(input("What is your second number?"))
+
+        # perform the calculation using the chosen operator
+        if operator == "+":
+            answer = input1 + input2 # addition
